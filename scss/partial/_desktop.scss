@@ -49,4 +49,21 @@
       }
     }
   }
+  // project
+  .project-content {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    .card {
+      margin: 0;
+    }
+  }
+}
+@media (min-width: 1140px) {
+  .article {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 300px;
+  }
 }
