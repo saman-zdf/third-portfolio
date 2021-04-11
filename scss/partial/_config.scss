@@ -1,0 +1,45 @@
+// colors
+$dark-blue: #1c2853;
+$darker-shade-blue: #081132;
+$light-green: #a0fff9;
+$yellow: #ffd001;
+$darker-yellow: #dfc534;
+$pink: #ff00e5;
+$blue: #00e0ff;
+$white: #fff;
+$dark: #222;
+// other variables
+$transiton-f: all 300ms linear;
+$transiton-s: all 500ms linear;
+$border-radius-20: 20px;
+$border-radius: 50%;
+$letter-spacing: 0.2rem;
+
+// mixins
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-s-bettwen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin flex-s-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin flex-s-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

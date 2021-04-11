@@ -1,0 +1,52 @@
+@media (min-width: 770px) {
+  .header {
+    &-content {
+      @include flex-s-around;
+    }
+    .hamburger {
+      display: none;
+    }
+    .navbar {
+      transform: scale(1);
+    }
+    .navbar {
+      transform: scale(1);
+      background: none;
+      clip-path: none;
+      height: inherit;
+      &-items {
+        opacity: 1;
+        @include flex-s-around;
+      }
+      &-link {
+        padding-bottom: 0;
+        margin-left: 1rem;
+        &:hover {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+  // showcase
+  .showcase {
+    background: linear-gradient(
+        to top right,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url('../../img/bg-yellow.jpg') center/cover no-repeat;
+    color: $white;
+    &-title {
+      font-size: 2.7rem;
+      font-weight: bolder;
+    }
+    &-btn {
+      border-color: $white;
+      color: $white;
+      &:hover {
+        background: $yellow;
+        color: $dark;
+      }
+    }
+  }
+}
