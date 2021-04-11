@@ -1,0 +1,134 @@
+.header {
+  background: $yellow;
+  padding: 2rem 0;
+  height: 110px;
+  .logo {
+    text-align: center;
+    color: $dark;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  // navbar
+  .navbar {
+    text-align: center;
+    background: linear-gradient(
+      rgba(255, 248, 33, 0.9),
+      rgba(255, 226, 4, 0.9)
+    );
+    height: 100vh;
+    @include flex-column;
+    transform: scale(0) rotate(360deg);
+    clip-path: circle(58.9% at 50% 50%);
+    transition: $transiton-f;
+    &-items {
+      opacity: 0;
+      transition: $transiton-s;
+    }
+    &-link {
+      display: inline-block;
+      color: $darker-shade-blue;
+      padding-bottom: 2rem;
+      font-size: 1.3rem;
+      font-weight: bold;
+      transition: $transiton-f;
+      letter-spacing: $letter-spacing;
+      &:hover {
+        padding-left: 1rem;
+        color: $white;
+      }
+    }
+  }
+  .hamburger {
+    width: 60px;
+    height: 5px;
+    background: $dark;
+    border-radius: $border-radius-20;
+    position: absolute;
+    cursor: pointer;
+    top: 60px;
+    right: 20px;
+    z-index: 2;
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 5px;
+      background: $dark;
+      border-radius: $border-radius-20;
+      top: 10px;
+    }
+    &:after {
+      content: '';
+      top: -10px;
+      width: 60px;
+    }
+  }
+
+  .toggle-menu {
+    display: none;
+  }
+  .toggle-menu:checked ~ .navbar {
+    transform: scale(1);
+  }
+  .toggle-menu:checked ~ .navbar > ul {
+    opacity: 1;
+    transition-delay: 300ms;
+  }
+}
+// end of header
+
+// showcase section
+.showcase {
+  padding: 2rem;
+  z-index: -1;
+  background: $darker-yellow;
+  height: 80vh;
+  &-content {
+    height: 100%;
+    @include flex-column;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  &-subtitle {
+    margin-top: 2rem;
+    letter-spacing: $letter-spacing;
+  }
+  &-btn {
+    display: inline-block;
+    color: $dark;
+    border: 3px solid $dark;
+    border-radius: $border-radius-20;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: $letter-spacing;
+    transition: $transiton-f;
+    &:hover {
+      background: $dark;
+      color: $yellow;
+    }
+  }
+}
+
+// end of showcase section
+
+// footer
+.footer {
+  background: $yellow;
+  height: 130px;
+  &-content {
+    @include flex-s-around;
+    padding: 4rem 0 0;
+    margin: 0 auto;
+  }
+  &-link {
+    color: $dark;
+    font-size: 2rem;
+    transition: $transiton-f;
+    &:hover {
+      color: $white;
+    }
+  }
+}
