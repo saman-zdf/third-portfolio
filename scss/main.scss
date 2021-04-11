@@ -49,10 +49,15 @@ img {
   margin: 0 auto;
   height: 100%;
 }
+.title {
+  text-align: center;
+  margin-top: 5rem;
+}
 
 .bottom-line {
-  width: 60px;
+  width: 90px;
   height: 5px;
   border-radius: $border-radius-20;
   background: $yellow;
+  margin: 1rem auto 3rem;
 }
