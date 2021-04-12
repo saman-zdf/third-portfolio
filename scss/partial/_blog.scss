@@ -22,4 +22,21 @@
     width: 70%;
     margin: 2rem auto;
   }
+  &-btn {
+    display: inline-block;
+    margin: 2rem auto;
+    border: 3px solid $yellow;
+    padding: 0.7rem 1.6rem;
+    color: $dark;
+    letter-spacing: $letter-spacing;
+    transition: $transiton-f;
+    border-radius: $border-radius-20;
+    border-bottom-right-radius: 0;
+    &:hover {
+      background: $yellow;
+      opacity: 0.9;
+      border-bottom-right-radius: 20px;
+      border-top-left-radius: 0;
+    }
+  }
 }
