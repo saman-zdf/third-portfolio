@@ -1,0 +1,70 @@
+.contact {
+  padding: 2rem;
+  width: 100%;
+  &-content {
+    @include flex-column;
+    margin-bottom: 1rem;
+  }
+  &-info {
+    color: $dark-blue;
+    letter-spacing: $letter-spacing;
+  }
+  &-details {
+    margin-bottom: 1rem;
+  }
+  &-details > div {
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+  &-text {
+    margin-left: 1rem;
+    font-weight: bold;
+    letter-spacing: $letter-spacing;
+  }
+  &-text2 {
+    font-size: 1.2rem;
+  }
+  i {
+    font-size: 1.5rem;
+  }
+
+  &-form {
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .form-group {
+    @include flex-column;
+  }
+  .form-control {
+    margin-bottom: 3rem;
+    padding: 1rem 0.3rem;
+    width: 100%;
+    border: none;
+    border-bottom: 4px solid $darker-yellow;
+    outline: none;
+  }
+  .form-control::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: $letter-spacing;
+  }
+  .form-btn {
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    color: $dark;
+    background: $yellow;
+    border: none;
+    font-size: 1.1rem;
+    letter-spacing: $letter-spacing;
+    border-radius: $border-radius-20;
+    border-bottom-right-radius: 0;
+    cursor: pointer;
+    transition: $transiton-f;
+    &:hover {
+      color: $yellow;
+      background: $dark;
+      border-bottom-right-radius: 20px;
+      border-top-left-radius: 0;
+    }
+  }
+}

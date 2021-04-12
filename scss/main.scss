@@ -52,7 +52,7 @@ img {
 }
 .title {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .bottom-line {
@@ -79,4 +79,23 @@ img {
     rgb(240, 252, 3),
     rgb(252, 169, 3)
   );
+}
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  color: $dark;
+  background: $yellow;
+  border: none;
+  font-size: 1.1rem;
+  letter-spacing: $letter-spacing;
+  border-radius: $border-radius-20;
+  border-bottom-right-radius: 0;
+  cursor: pointer;
+  transition: $transiton-f;
+  &:hover {
+    color: $yellow;
+    background: $dark;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+  }
 }
