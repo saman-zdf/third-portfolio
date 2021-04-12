@@ -1,0 +1,57 @@
+.about {
+  padding: 2rem;
+  &-content {
+    @include flex-column;
+  }
+  .lead {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: $letter-spacing;
+    padding-bottom: 1rem;
+  }
+  &-text {
+    max-width: 600px;
+  }
+
+  &-photo {
+    margin: 2rem auto 0;
+    display: block;
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+.hobby {
+  padding: 1rem 2rem 2rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../img/wall.jpg') center/cover no-repeat;
+  &-content {
+    @include flex-column;
+  }
+  &-card {
+    max-width: 380px;
+    background: $white;
+    margin: 1rem;
+    padding: 2rem 1rem;
+  }
+  i {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  &-photo {
+    display: block;
+    margin-bottom: 4rem;
+  }
+  &-title {
+    color: $white;
+    text-align: center;
+  }
+  &-text {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+}

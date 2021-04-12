@@ -389,6 +389,99 @@
   margin: 2rem auto;
 }
 
+.about {
+  padding: 2rem;
+}
+
+.about-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .lead {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-photo {
+  margin: 2rem auto 0;
+  display: block;
+  width: 380px;
+  height: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.hobby {
+  padding: 1rem 2rem 2rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../img/wall.jpg") center/cover no-repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/wall.jpg") center/cover no-repeat;
+}
+
+.hobby-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hobby-card {
+  max-width: 380px;
+  background: #fff;
+  margin: 1rem;
+  padding: 2rem 1rem;
+}
+
+.hobby i {
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.hobby-photo {
+  display: block;
+  margin-bottom: 4rem;
+}
+
+.hobby-title {
+  color: #fff;
+  text-align: center;
+}
+
+.hobby-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 @media (min-width: 770px) {
   .header-content {
     display: -webkit-box;
@@ -505,6 +598,38 @@
     margin-right: 4rem;
     position: relative;
   }
+  .about-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .hobby {
+    margin-bottom: 3rem;
+  }
+  .hobby-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .hobby-card:first-child {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  .hobby-card:last-child {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
 }
 
 @media (min-width: 1140px) {
@@ -543,6 +668,36 @@
     border: 5px solid #ffd001;
     -webkit-box-shadow: 3px 3px 20px #ffeea0;
             box-shadow: 3px 3px 20px #ffeea0;
+  }
+  .about-img-container {
+    position: relative;
+  }
+  .about-img-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 380px;
+    height: 380px;
+    background: #ffd001;
+    -webkit-box-shadow: 5px 5px 15px #ffeea0;
+            box-shadow: 5px 5px 15px #ffeea0;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .about-info {
+    position: relative;
+  }
+  .about-info:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    -webkit-transform: rotate(-45deg) translateY(-70px);
+            transform: rotate(-45deg) translateY(-70px);
+    background: #ffd001;
+    z-index: -1;
+    width: 200px;
+    height: 5px;
+    border-radius: 20px;
   }
 }
 
