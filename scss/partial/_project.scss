@@ -28,18 +28,11 @@
       font-weight: 500;
     }
     &-link {
-      color: $dark;
-      display: inline-block;
-      padding: 0.8rem 2rem;
-      margin-top: 2rem;
-      font-size: 1.2rem;
-      letter-spacing: $letter-spacing;
-      border-radius: $border-radius-20;
-      background: $darker-yellow;
-      transition: $transiton-f;
+      color: $yellow;
+      background: $dark;
       &:hover {
-        background: $dark;
-        color: $yellow;
+        background: $darker-yellow;
+        color: $dark;
       }
     }
   }
