@@ -2,6 +2,7 @@
 $dark-blue: #1c2853;
 $darker-shade-blue: #081132;
 $light-green: #a0fff9;
+$lighter-yellow: #ffeea0;
 $yellow: #ffd001;
 $darker-yellow: #dfc534;
 $pink: #ff00e5;
@@ -42,4 +43,12 @@ $letter-spacing: 0.2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@mixin flex-row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+@mixin flex-row-reverse {
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
