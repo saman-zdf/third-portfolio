@@ -89,7 +89,27 @@
     margin-right: 4rem;
     position: relative;
   }
+  // about section
+  .about {
+    &-content {
+      @include flex-row;
+      justify-content: space-evenly;
+    }
+  }
+  .hobby {
+    &-content {
+      @include flex-row;
+    }
+    &-card:first-child {
+      transform: rotate(15deg);
+    }
+    &-card:last-child {
+      transform: rotate(-10deg);
+    }
+    margin-bottom: 3rem;
+  }
 }
+
 // project section
 @media (min-width: 1140px) {
   .article {
@@ -125,5 +145,34 @@
     z-index: -1;
     border: 5px solid $yellow;
     box-shadow: 3px 3px 20px $lighter-yellow;
+  }
+  // about
+  .about-img-container {
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 380px;
+      height: 380px;
+      background: $yellow;
+      box-shadow: 5px 5px 15px $lighter-yellow;
+      border-radius: $border-radius;
+      z-index: -1;
+    }
+  }
+  .about-info {
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      transform: rotate(-45deg) translateY(-70px);
+      background: $yellow;
+      z-index: -1;
+      width: 200px;
+      height: 5px;
+      border-radius: $border-radius-20;
+    }
   }
 }
