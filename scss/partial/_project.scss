@@ -15,11 +15,8 @@
       padding-top: 5rem;
       background: $yellow;
       height: 100%;
-      opacity: 0;
+      opacity: 1;
       transition: $transiton-f;
-      &:hover {
-        opacity: 1;
-      }
     }
     &-sup {
       margin-bottom: 2rem;
