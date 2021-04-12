@@ -1,0 +1,25 @@
+.blog {
+  padding: 1rem 2rem 2rem;
+  text-align: center;
+  &-content {
+    @include flex-column;
+  }
+  &-container {
+    @include flex-column;
+    margin: 2rem 0;
+    border: 3px solid $yellow;
+    border-radius: $border-radius-20;
+    padding: 1rem;
+  }
+  &-sup {
+    margin: 0.5rem 0;
+  }
+  &-text {
+    max-width: 450px;
+  }
+  &-photo {
+    display: block;
+    width: 70%;
+    margin: 2rem auto;
+  }
+}

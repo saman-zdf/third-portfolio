@@ -64,12 +64,66 @@
       }
     }
   }
+  // blogs
+  .blog {
+    overflow-x: hidden;
+    &-photo {
+      width: 75%;
+    }
+    &-container {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+    }
+  }
+  .container-1,
+  .container-3,
+  .container-5 {
+    @include flex-row;
+    margin-left: 4rem;
+    position: relative;
+  }
+  .container-2,
+  .container-4 {
+    @include flex-row-reverse;
+    margin-right: 4rem;
+    position: relative;
+  }
 }
+// project section
 @media (min-width: 1140px) {
   .article {
     margin-bottom: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     height: 300px;
+  }
+}
+// blog section
+@media (min-width: 1380px) {
+  .container-1::before,
+  .container-3::before,
+  .container-5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 170px;
+    width: 1080px;
+    height: 450px;
+    z-index: -1;
+    border: 5px solid $yellow;
+    box-shadow: 3px 3px 20px $lighter-yellow;
+  }
+  .container-2::before,
+  .container-4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 170px;
+    width: 1080px;
+    height: 450px;
+    z-index: -1;
+    border: 5px solid $yellow;
+    box-shadow: 3px 3px 20px $lighter-yellow;
   }
 }
