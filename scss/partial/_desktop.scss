@@ -108,6 +108,28 @@
     }
     margin-bottom: 3rem;
   }
+  // contact
+  .contact-content {
+    @include flex-row;
+    justify-content: space-evenly;
+  }
+  .contact-form {
+    width: 50%;
+  }
+  .contact-info {
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotate(-38deg) translateY(-60px) translateX(30px);
+      width: 200px;
+      height: 5px;
+      border-radius: $border-radius-20;
+      background: $yellow;
+    }
+  }
 }
 
 // project section
