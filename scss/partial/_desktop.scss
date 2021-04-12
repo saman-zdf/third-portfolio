@@ -55,7 +55,13 @@
     justify-content: space-evenly;
     margin-bottom: 3rem;
     .card {
-      margin: 0;
+      margin: 0 1rem;
+      &-info {
+        opacity: 0;
+        &:hover {
+          opacity: 1;
+        }
+      }
     }
   }
 }
