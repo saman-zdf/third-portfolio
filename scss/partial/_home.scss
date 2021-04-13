@@ -1,7 +1,9 @@
 .header {
   background: $yellow;
+  position: fixed;
   padding: 2rem 0;
   height: 110px;
+  width: 100%;
   .logo {
     text-align: center;
     color: $dark;
