@@ -14,8 +14,8 @@
 
 .header .navbar {
   text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 248, 33, 0.9)), to(rgba(255, 226, 4, 0.9)));
-  background: linear-gradient(rgba(255, 248, 33, 0.9), rgba(255, 226, 4, 0.9));
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff821), to(#ffe204));
+  background: linear-gradient(#fff821, #ffe204);
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,7 +107,7 @@
   padding: 2rem;
   z-index: -1;
   background: #dfc534;
-  height: 80vh;
+  height: 100vh;
 }
 
 .showcase-content {
@@ -137,6 +137,7 @@
 .footer {
   background: #ffd001;
   height: 130px;
+  width: 100%;
 }
 
 .footer-content {
