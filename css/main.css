@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
 .header {
   background: #ffd001;
+  position: fixed;
   padding: 2rem 0;
   height: 110px;
+  width: 100%;
 }
 
 .header .logo {
