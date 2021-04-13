@@ -5,6 +5,8 @@
   padding: 2rem 0;
   height: 110px;
   width: 100%;
+  margin-bottom: 5rem;
+  z-index: 999;
 }
 
 .header .logo {
@@ -963,7 +965,7 @@ img {
 
 .title {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 10rem;
 }
 
 .bottom-line {
