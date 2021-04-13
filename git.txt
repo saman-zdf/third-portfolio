@@ -1,0 +1,245 @@
+commit 38be597ea2921874a41dd1e687ad93c757271efd
+Merge: f987ff5 2bdfec2
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 14:58:29 2021 +0800
+
+    Merge pull request #16 from saman-zdf/readme-3
+    
+    finished the readme file
+
+commit 2bdfec24ac71098903e39f66b3eb510197cf0c4f
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 14:57:47 2021 +0800
+
+    finished the readme file
+
+commit f987ff58d61c16c8b8f0bc67e740a14794cebf7c
+Merge: 6e08545 113fcde
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 14:32:36 2021 +0800
+
+    Merge pull request #15 from saman-zdf/readme2
+    
+    image added to readme file
+
+commit 113fcdea75f4ab3b8b9d9e5ac550ad9c41c7fb45
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 14:29:13 2021 +0800
+
+    image added to readme file
+
+commit 6e08545f81d62a595d7b5e7a3041a8a118112833
+Merge: cf0e46c 7fc22f5
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 14:25:02 2021 +0800
+
+    Merge pull request #14 from saman-zdf/readme
+    
+    readme file
+
+commit 7fc22f5e9b07451eb03e46dcc84ff7b19511d908
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 14:24:13 2021 +0800
+
+    readme file
+
+commit cf0e46c900be3f816da510101c3b9863d1a3e95c
+Merge: ca5af5c 5c219b9
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 12:00:28 2021 +0800
+
+    Merge pull request #13 from saman-zdf/sitemap
+    
+    site map and wireframes added
+
+commit 5c219b9b66a4fcdbb508f89eb23f05d078044fa3
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 11:59:31 2021 +0800
+
+    site map and wireframes added
+
+commit ca5af5c5eca378338d5ce4d4f15d9eb9babea184
+Merge: 4c0a109 63fe7ee
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 09:37:23 2021 +0800
+
+    Merge pull request #12 from saman-zdf/navbar-3
+    
+    gave header z-index
+
+commit 63fe7ee7e4098e8d968ab97651a8653bd5cf4351
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 09:36:42 2021 +0800
+
+    gave header z-index
+
+commit 4c0a109d6cd463c2a260233ae86b2dc48b914c98
+Merge: 823ad50 ea3b412
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 09:21:20 2021 +0800
+
+    Merge pull request #11 from saman-zdf/navbar-2
+    
+    makde navbar fixed
+
+commit ea3b412409a2082173cc0e66468d5e9a481cecd6
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 09:20:45 2021 +0800
+
+    makde navbar fixed
+
+commit 823ad507f419aabe140d364598f3f337b9c298f5
+Merge: 741ed2c 1d5b420
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 09:10:43 2021 +0800
+
+    Merge pull request #10 from saman-zdf/navbar
+    
+    navbar background changed
+
+commit 1d5b4208a2657b3099c8b17b163ee49ffa8c0b98
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 09:09:57 2021 +0800
+
+    navbar background changed
+
+commit 741ed2c4ffdd36d166cb8284a6e0d29d8b0bea83
+Merge: 444f9f3 e39a727
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 07:09:12 2021 +0800
+
+    Merge pull request #9 from saman-zdf/project-2
+    
+    button changed in project paged
+
+commit e39a727ad183cfd16612ad4f92b8adef5d09d40e
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 07:06:37 2021 +0800
+
+    button changed in project paged
+
+commit 444f9f3b09f7cfc321351576c3def11fc5dc426c
+Merge: 412b4bd f62243b
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Mon Apr 12 18:36:58 2021 +0800
+
+    Merge pull request #8 from saman-zdf/redo
+    
+    change buttons
+
+commit f62243b460fd8956027ad2267011d77b18a7c268
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Mon Apr 12 18:36:13 2021 +0800
+
+    change buttons
+
+commit 412b4bdae7223fb3bb6d911c47ab85d636e6c05d
+Merge: da36e48 03942b8
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Mon Apr 12 18:30:46 2021 +0800
+
+    Merge pull request #7 from saman-zdf/contact-page
+    
+    contact page added and styled
+
+commit 03942b8564ba8f9d408ae4e433523ed0520a33f1
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Mon Apr 12 18:28:33 2021 +0800
+
+    contact page added and styled
+
+commit da36e48a545da12c6e17bcd36063e141ae550bd8
+Merge: 13223d3 94db738
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Mon Apr 12 14:04:07 2021 +0800
+
+    Merge pull request #6 from saman-zdf/blog-redo
+    
+    added link to blog page
+
+commit 94db738d24f50dd3df68bf59749e45e37ccd5223
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Mon Apr 12 14:03:22 2021 +0800
+
+    added link to blog page
+
+commit 13223d330bc7b84e76df5ed381eb4a2bb74eba31
+Merge: 4a6f5a0 8ca0ae9
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Mon Apr 12 13:20:02 2021 +0800
+
+    Merge pull request #5 from saman-zdf/about-page
+    
+    about page added and styled
+
+commit 8ca0ae957777feb4d37d6a3ce67e9b9fa0cf71aa
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Mon Apr 12 13:19:11 2021 +0800
+
+    about page added and styled
+
+commit 4a6f5a0ead34722f9fa658adfb7a5ac629bc18f4
+Merge: 561978b 9e2a89c
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Mon Apr 12 11:11:58 2021 +0800
+
+    Merge pull request #4 from saman-zdf/blog-page
+    
+    blog page added and styled
+
+commit 9e2a89cb23e1733cbdcc4f532362da9fe9a6966b
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Mon Apr 12 11:10:59 2021 +0800
+
+    blog page added and styled
+
+commit 561978b0be5e081da38e45dad8a896f29423cbf3
+Merge: b5019a5 cf903f7
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Mon Apr 12 08:19:19 2021 +0800
+
+    Merge pull request #3 from saman-zdf/project-redone
+    
+    change the hover effect on project card
+
+commit cf903f7624349f8d9978686cabc881940afe3ab8
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Mon Apr 12 08:18:14 2021 +0800
+
+    change the hover effect on project card
+
+commit b5019a5c6b239cfea0ddf41d181bec74111e6db2
+Merge: 43dc63e d5d4ad8
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Sun Apr 11 16:45:24 2021 +0800
+
+    Merge pull request #2 from saman-zdf/project-page
+    
+    project page added and styled
+
+commit d5d4ad8984e9b4007a6da7a9b6dee3eb3eee3b86
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Sun Apr 11 16:44:01 2021 +0800
+
+    project page added and styled
+
+commit 43dc63ed3780a04d406403d0706ebcd22256e406
+Merge: f53402d 67eb539
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Sun Apr 11 14:30:02 2021 +0800
+
+    Merge pull request #1 from saman-zdf/home-page
+    
+    home page styled
+
+commit 67eb5395c404c17159703c8de2a4c14f102eefe6
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Sun Apr 11 14:28:58 2021 +0800
+
+    home page styled
+
+commit f53402d3ec1556202b680e6c445ee5307f98342f
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Sun Apr 11 11:33:43 2021 +0800
+
+    initial commit
