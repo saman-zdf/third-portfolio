@@ -1,3 +1,108 @@
+commit e7398c085c0834db98eb791b5cfa4eef44ea7987
+Merge: ef93d68 f1e6971
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Wed Apr 14 11:42:22 2021 +0800
+
+    Merge pull request #23 from saman-zdf/git-log2
+    
+    copy git log, change some text also
+
+commit f1e6971bf0be8f274a7efc9139d0073e5daacd75
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Wed Apr 14 11:41:01 2021 +0800
+
+    copy git log, change some text also
+
+commit ef93d687e2e811bedef2e9acce756013d77864d7
+Merge: b35a8dd e967d1b
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Wed Apr 14 09:24:19 2021 +0800
+
+    Merge pull request #22 from saman-zdf/doc-2
+    
+    made some changes to doc folder
+
+commit e967d1be7ce0eac01d445a6ebaa6a975e7d4cc1e
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Wed Apr 14 09:23:16 2021 +0800
+
+    made some changes to doc folder
+
+commit b35a8dd9c2eafa27d5b940f1d544187cba675c3e
+Merge: 7910e94 f14c29a
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Wed Apr 14 08:37:53 2021 +0800
+
+    Merge pull request #21 from saman-zdf/footer
+    
+    linkedin added to footer
+
+commit f14c29a3cbea2a2aab3065522aacb6bc5ee8ff6a
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Wed Apr 14 08:36:53 2021 +0800
+
+    linkedin added to footer
+
+commit 7910e94f28b75d64734fa20ad666cbdbe2ad3216
+Merge: 933b584 29139b0
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Wed Apr 14 08:00:44 2021 +0800
+
+    Merge pull request #20 from saman-zdf/sri-3
+    
+    generated new sri
+
+commit 29139b0b0c94219a3c3d182cd00e2b5a35659431
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Wed Apr 14 07:59:53 2021 +0800
+
+    generated new sri
+
+commit 933b5849bf44339d9bc7c807106e1d34041e1fd4
+Merge: 4e1811f 571f83e
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 18:13:51 2021 +0800
+
+    Merge pull request #19 from saman-zdf/SRI-2
+    
+     deleted SRI hash
+
+commit 571f83e2cb82c1a19b56d7c5c44e9e495c8e4621
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 18:12:36 2021 +0800
+
+     deleted SRI hash
+
+commit 4e1811f6486baae2a65b5c1581fab8a9f22f48aa
+Merge: 03c2240 a7ad6b1
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 17:14:53 2021 +0800
+
+    Merge pull request #18 from saman-zdf/sri
+    
+    insert (SRI)
+
+commit a7ad6b1a3e09bf19a65eb38ecb73d8fde7aea79e
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 17:13:30 2021 +0800
+
+    insert (SRI)
+
+commit 03c224003d6960b99f0314fcd18ff52988f0f79f
+Merge: 38be597 80f91ed
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Tue Apr 13 15:07:35 2021 +0800
+
+    Merge pull request #17 from saman-zdf/last-feature
+    
+    copy git log
+
+commit 80f91edb94cac235be4bedd0d742e47fd7b15da5
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Tue Apr 13 15:06:55 2021 +0800
+
+    copy git log
+
 commit 38be597ea2921874a41dd1e687ad93c757271efd
 Merge: f987ff5 2bdfec2
 Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
