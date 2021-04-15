@@ -1,8 +1,8 @@
 @media (min-width: 770px) {
   .header {
-    &-content {
-      @include flex-s-around;
-    }
+    @include flex-s-evenly;
+    width: 100%;
+    z-index: 999;
     .hamburger {
       display: none;
     }

@@ -6,7 +6,6 @@
   height: 110px;
   width: 100%;
   margin-bottom: 5rem;
-  z-index: 999;
 }
 
 .header .logo {
@@ -61,7 +60,7 @@
 
 .header .navbar-link:hover {
   padding-left: 1rem;
-  color: #fff;
+  color: #00e0ff;
 }
 
 .header .hamburger {
@@ -109,9 +108,9 @@
 
 .showcase {
   padding: 2rem;
-  z-index: -1;
   background: #dfc534;
   height: 100vh;
+  z-index: 1;
 }
 
 .showcase-content {
@@ -587,15 +586,18 @@
 }
 
 @media (min-width: 770px) {
-  .header-content {
+  .header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 100%;
+    z-index: 999;
   }
   .header .hamburger {
     display: none;
