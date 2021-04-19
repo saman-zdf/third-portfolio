@@ -1,3 +1,54 @@
+commit d3976387d677a93454890d21dfbb630fef573486
+Merge: 7d5e57d e5197a0
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Mon Apr 19 08:33:40 2021 +0800
+
+    Merge pull request #26 from saman-zdf/sitemap-validate
+    
+    validate sitemap
+
+commit e5197a0979f32b6c297a0140d28ea5fbe9ff1c49
+Author: saman-zdf <samanfyz68@gamil.com>
+Date:   Mon Apr 19 08:32:55 2021 +0800
+
+    validate sitemap
+
+commit 7d5e57d6b67b6415eae65152c36391f42f75378c
+Author: saman-zdf <samanfyz68@gamil.com>
+Date:   Mon Apr 19 08:17:04 2021 +0800
+
+    added sitemap.xml
+
+commit d17d3d26d2b5aaea21e9d6b99af9eccbe3f7655c
+Merge: 1527fe2 0dca3c9
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Thu Apr 15 16:39:50 2021 +0800
+
+    Merge pull request #25 from saman-zdf/home-3
+    
+    nav-wrapper deleted, some position changed on header
+
+commit 0dca3c9c003f29df0a9e041e3815bc50d19ed3f5
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Thu Apr 15 16:38:43 2021 +0800
+
+    nav-wrapper deleted, some position changed on header
+
+commit 1527fe232ad44e901b646d74060fc8e987f0321d
+Merge: e7398c0 67f4093
+Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
+Date:   Wed Apr 14 11:45:56 2021 +0800
+
+    Merge pull request #24 from saman-zdf/gitlog3
+    
+    git.txt added
+
+commit 67f4093c36d90a002be1ba30a6aeebb2c293a7e9
+Author: samanfyz68@gmail.com <samanfyz68@gmail.com>
+Date:   Wed Apr 14 11:45:10 2021 +0800
+
+    git.txt added
+
 commit e7398c085c0834db98eb791b5cfa4eef44ea7987
 Merge: ef93d68 f1e6971
 Author: saman-zdf <76195058+saman-zdf@users.noreply.github.com>
