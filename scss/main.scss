@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
 
-@import '../scss/partial/config';
-@import '../scss/partial/home';
-@import '../scss/partial/project';
-@import '../scss/partial/contact';
-@import '../scss/partial/blog';
-@import '../scss/partial/about';
-@import '../scss/partial/desktop';
-@import '../scss/partial/myblog';
+@import './partial/config';
+@import './partial/home';
+@import './partial/project';
+@import './partial/contact';
+@import './partial/blog';
+@import './partial/about';
+@import './partial/desktop';
+@import './partial/myblog';
 
 * {
   margin: 0;
